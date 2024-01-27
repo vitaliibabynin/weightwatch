@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Весонаблюдение</title>
+    <title>Unity Web Player | Весонаблюдение</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=1440 height=2210 tabindex="-1" style="width: 1440px; height: 2210px; background: #231F20"></canvas>
@@ -25,6 +25,7 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
+        arguments: [],
         dataUrl: "Build/WebGL.data",
         frameworkUrl: "Build/WebGL.framework.js",
         codeUrl: "Build/WebGL.wasm",
