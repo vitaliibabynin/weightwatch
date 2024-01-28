@@ -1,9 +1,9 @@
 const cacheName = "SmallDevTeam-Весонаблюдение-1.02";
 const contentToCache = [
-    "Build/WebGL2.loader.js",
-    "Build/WebGL2.framework.js",
-    "Build/WebGL2.data",
-    "Build/WebGL2.wasm",
+    "Build/WebGL.loader.js",
+    "Build/WebGL.framework.js",
+    "Build/WebGL.data",
+    "Build/WebGL.wasm",
     "TemplateData/style.css"
 
 ];
